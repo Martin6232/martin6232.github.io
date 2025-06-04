@@ -9,6 +9,7 @@ body{
 button {
     color: #fff;
 }
+
 /*encabezado*/
 .encabezado {
     display: flex;
@@ -104,4 +105,40 @@ button {
     height: 35px;
 }
 
+.icon-menu {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+}
 /*Cuerpo*/
+.cuerpo {
+    display: flex;
+}
+
+.menu {
+    flex: 2;
+    height: 540px;
+    padding: 10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+
+.btn-menu {
+    width: 100%;
+    padding: 10px;
+    padding-left: 15px;
+    display: flex;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #0f0f0f;
+    align-items: center;
+}
+
+.btn-menu:hover {
+    background-color: #303134;
+}
+
+.videos {
+    flex: 10; 
+}
