@@ -38,9 +38,16 @@ El objetivo general es que el estudiante pueda **diseñar, construir y documenta
 
 ## Estructura del proyecto
 
+## Tema:
+Mis juegos favoritos - Mi pagina es una copia de youtube en la cual aparecen videos sobre mis juegos favoritos como ULTRAKILL
+
 ## Paleta de colores:
 #303134
 #4d4e52
 #0f0f0f
 #ffffff
 ## Cambios: A la pagina se agrego la seccion de menu de la parte izquierda con una scrollbar con sus botones pero estos no tienen los textos ni las imagenes correspondientes
+
+## Cambios del 08-06-2025: A todas las opciones del menu se les dio su icono correspondiente ademas que se agrego un apartado de botones de categorias de videos,
+se hagregaron los 9 videos tres por cada juego al cual me he viciado y para que no se pase de los limites de la pantalla se hegrego una scrollbar y por ultimo
+se quito la scrollbar del apartado de menu por que no era funcional.
