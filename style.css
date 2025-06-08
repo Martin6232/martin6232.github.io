@@ -1,16 +1,30 @@
-/*General*/
+/*===General===*/
 *{
     padding: 0px;
     margin: 0px;
+    font-weight: bold;
 }
 body{
     background-color: #0f0f0f;
+    color: #fff;
+    font-family: Arial;
+    font-size: 12px;
 }
 button {
     color: #fff;
 }
 
-/*encabezado*/
+a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    color: #4d4e52;
+}
+/*===encabezado===*/
 .encabezado {
     display: flex;
     align-items: center;
@@ -56,7 +70,7 @@ button {
     background-color: #4d4e52;
 }
 
-/*buscador*/
+/*==buscador==*/
 
 .buscar {
     background-color: #0f0f0f;
@@ -70,6 +84,7 @@ button {
     padding-left: 10px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    color: #fff;
 }
 
 .btn-buscar {
@@ -88,7 +103,7 @@ button {
     margin-left: 20px;
     border-radius: 20px;
 }
-/*img*/
+/*=img=*/
 
 .logo{
     width: 90px;
@@ -103,6 +118,7 @@ button {
 
 .perfil {
     height: 35px;
+    border-radius: 45px;
 }
 
 .icon-menu {
@@ -110,20 +126,40 @@ button {
     width: 25px;
     margin-right: 20px;
 }
-/*Cuerpo*/
+
+.portada {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.portada:hover {
+    border-radius: 0px;
+}
+
+.vid {
+    margin-right: 10px;
+}
+/*===Cuerpo===*/
 .cuerpo {
     display: flex;
+    min-height: 80vh;
 }
 
 .menu {
     flex: 2;
-    height: 540px;
+    height: auto;
     padding: 10px;
     flex-wrap: wrap;
-    overflow-y: scroll;
 }
 
+#videos {
+    flex: 11; 
+    margin-left: 10px;
+}
 
+/*==Menu==*/
 .btn-menu {
     width: 100%;
     padding: 10px;
@@ -139,6 +175,54 @@ button {
     background-color: #303134;
 }
 
-.videos {
-    flex: 10; 
+
+
+#seccion {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom-style:solid;
+    border-bottom-color: #4d4e52;
+}
+.s2 {
+    margin-top: 20px;
+}
+
+/*==Categorias==*/
+.categorias {
+    display: flex;
+}
+
+.categoria {
+    background-color: #303134;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+/*===Videos===*/
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.video {
+    height: auto;
+    min-width: 300px;
+    width: 350px;
+    padding: 7px;
+    flex: 1;
+    cursor: default;
+}
+
+/*=info=*/
+
+.info {
+    display: flex;
+    margin-top: 10px;
 }
