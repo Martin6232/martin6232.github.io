@@ -213,8 +213,8 @@ p{
 
 .video {
     height: auto;
-    min-width: 300px;
-    width: 350px;
+    min-width: 350px;
+    width: 400px;
     padding: 7px;
     flex: 1;
     cursor: default;
