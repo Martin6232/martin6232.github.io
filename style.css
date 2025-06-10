@@ -145,7 +145,6 @@ p{
 /*===Cuerpo===*/
 .cuerpo {
     display: flex;
-    min-height: 80vh;
 }
 
 .menu {
@@ -208,7 +207,7 @@ p{
 .videos{
     display: flex;
     flex-wrap: wrap;
-    height: 80vh;
+    height: 79vh;
     overflow-y: scroll;
 }
 
