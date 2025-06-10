@@ -149,7 +149,7 @@ p{
 
 .menu {
     flex: 2;
-    height: auto;
+    height: 100%;
     padding: 10px;
     flex-wrap: wrap;
 }
@@ -207,6 +207,7 @@ p{
 .videos{
     display: flex;
     flex-wrap: wrap;
+    min-height: 10vh;
     height: 79vh;
     overflow-y: scroll;
 }
